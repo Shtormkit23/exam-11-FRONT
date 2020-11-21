@@ -5,8 +5,6 @@ import {ConnectedRouter} from "connected-react-router";
 import App from './App';
 import store, {history} from "./store/configureStore";
 
-
-
 const app = (
     <Provider store={store}>
         <ConnectedRouter history={history}>
